@@ -35,6 +35,7 @@ func! s:FTrobot()
     \ || b:topl =~ '\*\*\*.\{-}\*\*\*'
     \ || b:topl =~ '^# -\*- coding: robot -\*-$'
         setlocal filetype=robot
+        set expandtab
     endif
 endfunc
 
